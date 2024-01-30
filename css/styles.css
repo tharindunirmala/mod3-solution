@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #333;
+    margin-bottom: 0;
+}
+
+.navbar-brand,
+.navbar-toggle {
+    color: #fff;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+}
+
+.page-heading {
+    margin-top: 50px;
+}
+
+.main-section {
+    background-color: #adaaaa;
+    min-height: 1000px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Additional Styles for Mobile Menu */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #333;
+        text-align: center;
+    }
+
+    .navbar-nav>li>a {
+        color: #fff;
+        display: block; /* Make each menu item a block element */
+        padding: 10px 15px; /* Add padding for better spacing */
+    }
+}
